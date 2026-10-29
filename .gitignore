@@ -1,0 +1,16 @@
+# tModLoader 编译产物（不进仓库）
+bin/
+obj/
+.vs/
+
+# .tmod 是要发布的本体，故意不忽略
+
+# 编辑器/本机配置
+*.user
+*.suo
+*.DotSettings.user
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
